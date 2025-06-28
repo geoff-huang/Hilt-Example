@@ -1,4 +1,7 @@
 package com.example.hiltexample
 
-class MyHiltApplication {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class MyHiltApplication : Application()
